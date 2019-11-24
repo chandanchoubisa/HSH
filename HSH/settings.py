@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'HSH.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'hshdb',
-        'USER':'dbadmin',
-        'PASSWORD': 'chan@14324',
+        'NAME': 'YOUR DATABSE NAME',
+        'USER':'YOUR USER NAME',
+        'PASSWORD': 'YOUR PASSWORD',
         'HOST':'localhost'
 
 
