@@ -83,7 +83,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'hshdb',
-        'USER':'postgres',
+        'USER':'dbadmin',
         'PASSWORD': 'chan@14324',
         'HOST':'localhost'
 
