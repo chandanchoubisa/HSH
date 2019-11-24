@@ -29,8 +29,8 @@ def contact(request):
 		send_mail(
 			'Inquiry Regarding Listed Home',
 			'There has been an enquiry regarding listed property '+listing +'. For more details login to your admin panel.',
-			'csprojectfifl@gmail.com',
-			[broker_email,'chandanchoubisa24@gmail.com'],
+			'YOUR COMPANY EMAIL',
+			[broker_email,'ANOTHER EMAIL FOR CHECKING'],
 			fail_silently=False
 		)
 
